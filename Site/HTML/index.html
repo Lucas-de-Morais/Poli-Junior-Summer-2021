@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Juninho Café</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../CSS/style.css">
+<link rel="icon" href="../Imagens/smiley.png">
+</head>
+
+<body>
+
+<!-- Barra superior fixa (INICIO)-->
+<div class="barra-superior">
+
+ <!--Barra acima do menu (INICIO)-->
+ <div class="menu-top">
+
+  <!--LOGOTIPO -->
+  <a href="#a" title="Página Inicial"><img id="logo" src="../Imagens/Logo preto.png" /></a>
+
+  <!--Barra de pesquisa (INICIO)-->
+  <span class='hint-master'>
+   <form autocomplete='off'>
+    <input type='text' class='menu-input' placeholder='Pesquisar...' />
+   </form>
+  </span>
+  <!--Barra de pesquisa (FIM)-->
+
+  <!--Botão de carrinho de compras-->
+  <a href="#a" title="Carrinho de Compras"><div class="botao-carrinho"></div></a>
+
+  <!--Botão de perfil de usuário-->
+  <a href="#a" title="Perfil"><div class="botao-perfil"></div></a>
+
+ </div>
+ <!--Barra acima do menu (FIM)-->
+
+ <!--Menu (INICIO)-->
+ <div class="menu">
+  <ul class="menu-topics">
+
+   <!--Tópico 1-->
+   <li class="drop-master">
+    <a class="menu-option" href="#Capsulas" >Cápsulas <span class="expand-down-icon"></span></a>
+    <div class="menu-drop">
+    <a class="drop-option" href="#a">Opção 1</a>
+    <a class="drop-option" href="#b">Opção 2</a>
+    <a class="drop-option" href="#a">Opção 3</a>
+    <a class="drop-option" href="#b">Opção 4</a>
+    </div>
+   </li>
+
+   <!--Tópico 2-->
+   <li class="drop-master">
+    <a class="menu-option" href="#Sabores">Sabores <span class="expand-down-icon"></span></a>
+    <div class="menu-drop">
+    <a class="drop-option" href="#a">Opção 1</a>
+    <a class="drop-option" href="#b">Opção 2</a>
+    <a class="drop-option" href="#a">Opção 3</a>
+    <a class="drop-option" href="#b">Opção 4</a>
+    </div>
+   </li>
+
+   <!--Tópico 3-->
+   <li class="drop-master">
+    <a class="menu-option" href="#Máquinas">Máquinas <span class="expand-down-icon"></span></a>
+    <div class="menu-drop">
+    <a class="drop-option" href="#a">Opção 1</a>
+    <a class="drop-option" href="#b">Opção 2</a>
+    <a class="drop-option" href="#a">Opção 3</a>
+    <a class="drop-option" href="#b">Opção 4</a>
+    </div>				
+   </li>
+
+   <!--Tópico 4-->
+   <li class="drop-master">
+    <a class="menu-option" href="#Acessórios">Acessórios <span class="expand-down-icon"></span></a>
+    <div class="menu-drop">
+    <a class="drop-option" href="#a">Opção 1</a>
+    <a class="drop-option" href="#b">Opção 2</a>
+    <a class="drop-option" href="#a">Opção 3</a>
+    <a class="drop-option" href="#b">Opção 4</a>
+    </div>
+   </li>			
+
+   <!--Tópico 5-->
+   <li><a class="menu-option" href="#Contato">Contato</a></li>
+
+  </ul>
+ </div>
+ <!--Menu (FIM)-->
+
+</div>
+<!-- Barra superior fixa (FIM)-->
+
+<!--Espaço vazio abaixo do topo-->
+<div id="top" class="ghost-top"></div>
+
+<!--Barra superior com propaganda-->
+<div class="propagandas-parallax">
+ <div class="propaganda-caixa">
+ <p style="font-size: 30px; font-weight: bold;">A loja com a maior variedade de cápsulas 
+ de café que você já viu</p>
+ <p>Aqui você encontra a mais alta diversidade de produtos do ramo do café, com qualidade 
+ e acessibilidade garantidas.</p>
+ </div>
+</div>
+
+<!--Espaço vazio abaixo da propaganda-->
+<div class="ghost-space"></div>
+
+<!--Parte central -------------------------------------------->
+<div class="container-meio" id="container-produtos"> 
+ <h3 class="categoria-titulo">Cápsulas</h3>
+ <!-- MODELO DE PRODUTO (caso o HTTPRequest não carregue)-->
+ <div class="caixa-prod">
+  <div class="fundo-branco"></div>
+  <div class="inten-prod">Intensidade: X</div>
+  <img class="imagem-prod" src="../Imagens/placeholder.png"/>
+  <div class="nome-prod">Nome</div>
+  <div class="descr-prod">Descrição</div>
+  <div class="preco-prod">R$ valor</div>
+  <a class="carrinho-prod" href="#a">Adicionar ao carrinho de compras</a>
+ </div>
+</div> 
+<!--FIM Parte central -------------------------------------------->
+
+<div class="ghost-space"></div>
+
+<a class="link-fundo" href="#top">Voltar ao início</a>
+<div class="container-fundo">
+
+ <div class="fundo-texto">
+  <p class="fundo-link-titulo">Cápsulas</p>
+  <a class="fundo-link" href="#a">Opção 1</a>
+  <a class="fundo-link" href="#a">Opção 2</a>
+  <a class="fundo-link" href="#a">Opção 3</a>
+  <a class="fundo-link" href="#a">Opção 4</a>
+ </div>
+
+ <div class="fundo-space"></div>
+
+ <div class="fundo-texto">
+  <p class="fundo-link-titulo">Sabores</p>
+  <a class="fundo-link" href="#a">Opção 1</a>
+  <a class="fundo-link" href="#a">Opção 2</a>
+  <a class="fundo-link" href="#a">Opção 3</a>
+  <a class="fundo-link" href="#a">Opção 4</a>
+ </div>
+
+ <div class="fundo-space"></div>
+
+ <div class="fundo-texto">
+  <p class="fundo-link-titulo">Máquinas</p>
+  <a class="fundo-link" href="#a">Opção 1</a>
+  <a class="fundo-link" href="#a">Opção 2</a>
+  <a class="fundo-link" href="#a">Opção 3</a>
+  <a class="fundo-link" href="#a">Opção 4</a>
+ </div>
+
+ <div class="fundo-space"></div>
+
+ <div class="fundo-texto">
+  <p class="fundo-link-titulo">Acessórios</p>
+  <a class="fundo-link" href="#a">Opção 1</a>
+  <a class="fundo-link" href="#a">Opção 2</a>
+  <a class="fundo-link" href="#a">Opção 3</a>
+  <a class="fundo-link" href="#a">Opção 4</a>
+ </div>
+</div>
+
+<div class="container-fundo-fundo">
+ <p>© 2021 Juninho Café | Juninho Neto Jr.
+ Todas imagens e ilustrações são marcas registradas de seus respectivos proprietários
+ </p>
+ <p>Av. Julio Cesar Magno Alexandre da Cunha, Santa Giovanna, n°123</p>
+</div>
+
+<script src="../JS/index-script.js">
+</script>
+
+</body>
+</html>
