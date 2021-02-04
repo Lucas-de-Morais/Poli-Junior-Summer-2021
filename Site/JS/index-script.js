@@ -21,7 +21,7 @@ function loadDoc(){
 function gerarProdutos(string){
 	obj = JSON.parse(string);
 	size = obj.length;
-	var preco =0;
+	var preco = 0;
 	
 	//---Teste----
 	//alert(size);
@@ -63,6 +63,7 @@ function gerarProdutos(string){
 		imagemProd = document.createElement("IMG");
 		imagemProd.className="imagem-prod";
 		imagemProd.src = String(obj[i].foto);
+		imagemProd.alt = "imagem do produto";
 		
 		//Nome do Produto
 		nomeProd = document.createElement("DIV");
@@ -82,7 +83,7 @@ function gerarProdutos(string){
 		//Link para o Carrinho de Compras
 		carrinhoProd = document.createElement("A");
 		carrinhoProd.className="carrinho-prod";
-		carrinhoProd.href="#a";
+		carrinhoProd.href="javascript:void(0)";
 		carrinhoProd.innerHTML = "Adicionar ao carrinho de compras";
 		
 		//Adição dos DIVs dentro da Caixa de Produto
@@ -112,10 +113,5 @@ function gerarProdutos(string){
 	//--------Teste-----------------------
 	//caixaMaster.innerHTML = html_string;
 }
-function newsletter(){
-	
-	
-}
-
 
 loadDoc();
